@@ -90,10 +90,6 @@ header h1{
   display: flex;
   justify-content: space-evenly;
 }
-/* .view-mode svg.active{
-  color: initial;
-  filter: drop-shadow(0 0 2px #fff);
-} */
 header h1 span{
   color: #fff;
   background: #e62429;
@@ -146,16 +142,11 @@ main.container{
   height: 2rem;
   z-index: -1;
   position: absolute;
-  /* top: 0; */
   right: 0;
   bottom: 0;
   left: 0;
   background: linear-gradient(-45deg, #004e98 0%, #e62429 100% );
-  /* transform: translate3d(0px, 20px, 0) scale(0.95); */
   filter: blur(5px);
-  /* opacity: var(0.7);
-  transition: opacity 0.3s;
-  border-radius: inherit; */
 }
 
 /* 
@@ -174,23 +165,9 @@ main.container{
   background: inherit;
   border-radius: inherit;
 }
-      
-/* .quickSearch .btn:nth-child(3n-2){
-  background: #e62429;
-  color: #fff;
-}
-.quickSearch .btn:nth-child(3n-1){
-  background: #ffffff;
-}
-.quickSearch .btn:nth-child(3n){
-  background: #004e98;
-  color: #fff;  
-} */
-
 .searchTitle{
   text-align: center;
   text-transform: capitalize;
-  /* margin: 10px; */
   font-size: 1.5rem;
 }
 .advanced-search{
@@ -266,11 +243,7 @@ p.no-results{text-align: center;padding-top: 20vh;}
   position: relative;
   width: 275px;
   margin-bottom: 25px;
-  /* padding: 5px; */
 }
-/* .img-card:hover{
-  background: linear-gradient(90deg, #e62429, #004e98);
-} */
 .img-card img{
   width: 100%;
   height: 100%;
@@ -281,7 +254,6 @@ p.no-results{text-align: center;padding-top: 20vh;}
 }
 .img-card .img-overlay{
   position: absolute;
-  /* padding: 5px; */
   top: 0;
   left: 0;
   height: 100%;
@@ -303,7 +275,6 @@ p.no-results{text-align: center;padding-top: 20vh;}
 .img-card .img-overlay p{
   text-align: center;
   font-size: 1.2rem;
-  /* margin-right: 5px; */
 }
 .img-card .img-overlay:hover{
   opacity: 1 !important;
@@ -323,7 +294,6 @@ main.list .img-card{
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  /* transition: all 500ms ease; */
 }
 main.list .img-card:hover{
   padding: 5px;
@@ -366,30 +336,20 @@ main.list .img-card:hover p{
   align-items: center;
 }
 .pagination .red-triangle{
-  /* width: 0;
-  height: 0; */
   border-style: solid;
   border-width: 22px 25px 23px 0;
   border-color: transparent #e6242b transparent transparent;
   margin-right: -10px;
 }
 .pagination .blue-triangle{
-  /* width: 0;
-  height: 0; */
   border-style: solid;
   border-width: 23px 0 22px 25px;
   border-color: transparent  transparent transparent #004e98;
   margin-left: -10px;
 }
 .pagination .btn{
-  /* color: #fff;
-  background: #e62429; */
   border: 2px solid transparent;
   padding: 10px 15px;
-}
-
-.pagination .btn:nth-of-type(2){
-  /* background: #004e98; */
 }
 footer{
   background: linear-gradient(166deg, rgba(230,36,41,1) 15%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 65%, rgba(0,78,152,1) 85%);

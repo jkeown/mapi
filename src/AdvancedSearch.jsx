@@ -4,8 +4,6 @@ import SearchIcon from './SearchIcon'
 
 const Search = (props) => {
   const {searchBy, setSearchBy, searchValue, setSearchValue, setCurrentPage, setUseAPI, setSearchOffset, setSearchCategory} = props
-  // const [searchBy, setSearchBy] = useState('characters')
-  // const [searchValue, setSearchValue] = useState('')
   const [showForm, setShowForm] = useState(false)
  
   const handleClick = (event) => {
@@ -28,7 +26,6 @@ const Search = (props) => {
       <div className="advanced-search-top" onClick={handleClick}>
         <h3>Advanced Search</h3>
         <SearchIcon />
-        {/* <img src={SearchIcon} alt="Search" /> */}
       </div>
     <form onSubmit={handleSubmit} className={showForm ? 'show-form' : ''}>
       <label htmlFor="">Search by: </label>

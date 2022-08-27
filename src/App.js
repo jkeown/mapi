@@ -5,9 +5,6 @@ import QuickSearch from './QuickSearch';
 import ComicCard from './ComicCard';
 import Footer from './Footer';
 
-// TODO: 
-// Pagination pages get messed up after setting results limit
-
 function App() {
   const [useAPI, setUseAPI] = useState('QS')
   const [APIData, setAPIData] = useState([])
@@ -64,36 +61,17 @@ function App() {
         searchValue={searchValue}
         setSearchValue={setSearchValue}
       />
-        {/* <Button 
-        btnName={'Quick Search'}
-        setCurrentPage={setCurrentPage}
-        setUseAPI={setUseAPI}
-        setSearchOffset={setSearchOffset}
-        api={'QS'} />
-        <Button 
-        btnName={'Advanced Search'}
-        setCurrentPage={setCurrentPage}
-        setUseAPI={setUseAPI}
-        setSearchOffset={setSearchOffset}
-        api={'AS'} /> */}
+       
          { (!APIData.length) && <p className='no-results'>NO API DATA</p> }
          
       <main className={`container ${showListView ? 'list' : ''}`}>
 
           {
-          APIData.map(comic => ( // Why parens here again?
+          APIData.map(comic => (
             <ComicCard comic={comic} key={comic.id} />
           ))
         }
 
-       {/* { (APIData.length) && <Pagination 
-          totalResults={totalSearchResults}
-          searchLimit={searchLimit}
-          searchOffset={searchOffset}
-          setSearchOffset={setSearchOffset}
-          currentPage={currentPage}
-          setCurrentPage={setCurrentPage}
-          />} */}
       </main>
       <Footer
       APIData={APIData}

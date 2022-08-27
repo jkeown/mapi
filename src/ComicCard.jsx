@@ -6,7 +6,6 @@ const ComicCard = ({comic}) => {
       />
     <a href={comic.urls[0].url} target="_blank" rel="noreferrer">
     <div className="img-overlay">
-      {/* This probably can be done better */}
       <p>{comic.title}</p> 
       <p>{comic.name}</p> 
       <p>{comic.fullName}</p> 
