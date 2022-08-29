@@ -28,15 +28,15 @@ const Search = (props) => {
         <SearchIcon />
       </div>
     <form onSubmit={handleSubmit} className={showForm ? 'show-form' : ''}>
-      <label htmlFor="">Search by: </label>
-      <select
+      <label htmlFor="searchOption">Search by: </label>
+      <select id="searchOption"
         onChange={handleSelectChange}
       >
         <option value="name">Character</option>
         <option value="title">Comic</option>
       </select>
-      <label htmlFor="">&nbsp;{searchBy}:&nbsp;</label>  
-      <input type="text" value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />
+      <label htmlFor="searchValue">&nbsp;{searchBy}:&nbsp;</label>  
+      <input id="searchValue" type="text" value={searchValue} onChange={(e) => setSearchValue(e.target.value)} />
       <Button 
         btnName='Search'
         setCurrentPage={setCurrentPage}
