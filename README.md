@@ -6,11 +6,10 @@ Desktop version - Grid View - Dark Mode
 
 ![desktop version](/screenshots/desktop.png)
 
-Mobile version - List View
+Mobile version - List View - Light Mode
 
 ![mobile version](/screenshots/mobile.png)
-![mobile version](/screenshots/mobile2.png)
-![mobile version](/screenshots/mobile3.png)
+
 
 ### Links
 
