@@ -2,18 +2,20 @@
 
 ### Screenshot
 
-Desktop version - Grid View
+Desktop version - Grid View - Dark Mode
 
 ![desktop version](/screenshots/desktop.png)
 
 Mobile version - List View
 
 ![mobile version](/screenshots/mobile.png)
+![mobile version](/screenshots/mobile2.png)
+![mobile version](/screenshots/mobile3.png)
 
 ### Links
 
 - Code URL: [Github](https://github.com/jkeown/mapi.git)
-- Live Site URL: [Netlify](https://event-countdown.netlify.app/)
+- Live Site URL: [Netlify](https://marvelous-data.netlify.app/)
 
 ## Overview
 First React App not following a tutorial.
