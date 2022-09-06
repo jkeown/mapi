@@ -1,5 +1,8 @@
 # Marvel API React App
 
+## Overview
+First React App not following a tutorial.
+
 ### Screenshot
 
 Desktop version - Grid View - Dark Mode
@@ -16,8 +19,6 @@ Mobile version - List View - Light Mode
 - Code URL: [Github](https://github.com/jkeown/mapi.git)
 - Live Site URL: [Netlify](https://marvelous-data.netlify.app/)
 
-## Overview
-First React App not following a tutorial.
 
 ## Features
 - Quick Search
